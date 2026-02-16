@@ -1,4 +1,4 @@
-# Using Deep-Koopman and State-Space Modess (SSMs) for World Modeling
+# Using Deep-Koopman and State-Space Models (SSMs) for World Modeling
 
 ## Section 1
 
