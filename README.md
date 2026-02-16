@@ -1,4 +1,6 @@
-# Using Deep-Koopman and State-Space Modes (SSMs) for World Modeling
+# Using Deep-Koopman and State-Space Modess (SSMs) for World Modeling
+
+## Section 1
 
 This repository contains implementations and experiments for **Koopman-based Robust Model Predictive Control (RMPC)** applied to a **2R2C building thermal model**. The core idea is to approximate nonlinear thermal dynamics with a **linear predictor in a lifted (Koopman) space**, enabling the use of linear MPC techniques while retaining nonlinear system fidelity.
 
@@ -109,6 +111,8 @@ A representative rollout comparison between the true nonlinear system and the Ko
 * Deep Koopman provides greater flexibility by learning task-specific basis functions.
 * Long-horizon prediction error is primarily driven by small Koopman eigenvalue inaccuracies, a known theoretical limitation.
 
+## Section 2: SSMs
+Selective-SSM ("Mamba-ish") + Koopman latent linearity + RL (A2C) on POMDP CartPole
 ---
 
 ## Repository Structure
