@@ -1,4 +1,4 @@
-# Koopman-based RMPC for 2R2C Building Model
+# Using Deep-Koopman and State-Space Modes (SSMs) for World Modeling
 
 This repository contains implementations and experiments for **Koopman-based Robust Model Predictive Control (RMPC)** applied to a **2R2C building thermal model**. The core idea is to approximate nonlinear thermal dynamics with a **linear predictor in a lifted (Koopman) space**, enabling the use of linear MPC techniques while retaining nonlinear system fidelity.
 
