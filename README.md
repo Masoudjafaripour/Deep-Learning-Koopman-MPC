@@ -112,7 +112,9 @@ A representative rollout comparison between the true nonlinear system and the Ko
 * Long-horizon prediction error is primarily driven by small Koopman eigenvalue inaccuracies, a known theoretical limitation.
 
 ## Section 2: SSMs
+
 Selective-SSM ("Mamba-ish") + Koopman latent linearity + RL (A2C) on POMDP CartPole
+
 ---
 
 ## Repository Structure
